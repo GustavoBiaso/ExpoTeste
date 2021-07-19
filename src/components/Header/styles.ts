@@ -3,6 +3,8 @@ import colors from '../../styles/colors'
 
 export const HeaderStyle = styled.View`
   flex-direction: row;
+  background-color: ${colors.yellow};
+  padding: 5px;
 `
 
 export const HeaderTitle = styled.View`

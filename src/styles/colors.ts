@@ -5,5 +5,6 @@ export default {
   brownLight: '#b6a6a6',
   gray: '#F3F3F3',
   blue: '#0A89E5',
-  red: '#C82929'
+  red: '#C82929',
+  yellow: '#FCD81A'
 }
