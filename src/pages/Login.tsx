@@ -8,6 +8,9 @@ export default function Login(){
     function handleCadastrar() {
     navigation.navigate("Cadastrar")
     }
+    function handleHome() {
+    navigation.navigate("Home")
+    }
     return(
         <Container>
             <Form>
@@ -22,7 +25,7 @@ export default function Login(){
                 <Label>Senha</Label>
                 <TextInput placeholder="Senha"></TextInput>
             </FormRow>
-            <Button title="Entrar" onPress={handleCadastrar}/>
+            <Button title="Entrar" onPress={handleHome}/>
             </Form>
         </Container>
     )
