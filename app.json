@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "projeto01",
+    "name": "HomeWorkHelper",
     "slug": "projeto01",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -17,9 +17,13 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.cefet.homeworkhelper",
+      "buildNumber": "1.0.0"
     },
     "android": {
+      "package": "com.cefet.homeworkhelper",
+      "versionCode": 1,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"

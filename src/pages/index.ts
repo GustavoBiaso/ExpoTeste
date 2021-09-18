@@ -1,3 +1,8 @@
 export { default as Login } from './Login'
 export { default as Cadastrar } from './Cadastrar'
 export { default as Home } from './Home'
+export { default as ConhecaoProjeto } from './ConhecaoProjeto'
+export { default as DadosPessoais } from './DadosPessoais'
+export { default as Anotacoes } from './Anotacoes'
+export { default as Informacoes } from './Informacoes'
+export { default as Camera } from './Camera'

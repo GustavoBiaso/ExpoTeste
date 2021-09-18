@@ -19,6 +19,10 @@ export const HeaderImage = styled.View`
 export const HeaderHello = styled.Text`
  font-size: 18px;
 `
+export const HeaderMenu = styled.Text`
+ font-size: 18px;
+`
+
 export const HeaderName = styled.Text`
  font-size: 24px;
  font-weight: bold;

@@ -1,7 +1,7 @@
 import React from 'react'
 import { useNavigation } from "@react-navigation/core";
-import { Container, Form, FormRow, Label, SubTitle, TextInput, Title } from '../styles/Login'
-import { Button, ButtonText } from '../components'
+import { Container, Form, FormRow, Label, SubTitle, TextInput, Title } from './style'
+import { Button, ButtonText } from '../../components'
 
 export default function Login(){
     const navigation = useNavigation()
@@ -9,7 +9,7 @@ export default function Login(){
     navigation.navigate("Cadastrar")
     }
     function handleHome() {
-    navigation.navigate("Home")
+    navigation.navigate("HomeStack")
     }
     return(
         <Container>
