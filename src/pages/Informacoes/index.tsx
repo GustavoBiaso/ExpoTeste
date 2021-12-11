@@ -1,12 +1,10 @@
 import React from 'react'
-import { useNavigation } from "@react-navigation/core";
-import { ButtonRow, Container, Message, Title } from './styles'
-import { Header, ButtonHome } from '../../components'
+import { Container, Message, Title } from './styles'
+import { Header } from '../../components'
 
-export default function Informacoes(){
-    const navigation = useNavigation()
+export default function Informacoes() {
 
-    return(
+    return (
         <Container>
             <Header hello="Olá" name="Gustavo" image={require("../../../assets/img/fotodapessoa.png")} />
             <Title>Informações</Title>

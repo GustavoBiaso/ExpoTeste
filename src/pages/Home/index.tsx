@@ -1,16 +1,20 @@
 import React from 'react'
-import { useNavigation } from "@react-navigation/core";
 import { ButtonRow, Container } from './styles'
 import { Header, ButtonHome } from '../../components'
+import { LoginTypes } from '../../types/ScreenStack.types'
+import { useAuth } from '../../hook/auth'
 
-export default function Home(){
-    const navigation = useNavigation()
+export default function Home({ navigation }: LoginTypes) {
+
+    const { user } = useAuth()
     function handleLogin() {
         navigation.navigate("Login")
     }
-    return(
+    return (
         <Container>
-            <Header hello="Olá" name="Gustavo" image={require("../../../assets/img/fotodapessoa.png")} />
+            {user && (
+                <Header hello="Olá" name={user?.name} image={require("../../../assets/img/fotodapessoa.png")} />
+            )}
             <ButtonRow>
                 <ButtonHome title="Precisa de ajuda? Clique aqui!" onPress={() => handleLogin()} image={require("../../../assets/img/interrogacao.png")} />
             </ButtonRow>

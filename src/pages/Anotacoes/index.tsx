@@ -1,15 +1,13 @@
 import React from 'react'
-import { useNavigation } from "@react-navigation/core";
-import { ButtonRow, Container } from './styles'
-import { Header, ButtonHome } from '../../components'
+import { Container } from './styles'
+import { Header } from '../../components'
 
-export default function Anotacoes(){
-    const navigation = useNavigation()
+export default function Anotacoes() {
 
-    return(
+    return (
         <Container>
             <Header hello="Olá" name="Gustavo" image={require("../../../assets/img/fotodapessoa.png")} />
-        
+
         </Container>
     )
 }

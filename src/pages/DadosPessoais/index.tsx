@@ -1,13 +1,11 @@
 import React from 'react'
-import { useNavigation } from "@react-navigation/core";
-import { ButtonRow, Container } from './styles'
-import { Header, ButtonHome } from '../../components'
+import { Container } from './styles'
+import { Header } from '../../components'
 
-export default function DadosPessoais(){
-    const navigation = useNavigation()
-    return(
+export default function DadosPessoais() {
+    return (
         <Container>
-              <Header hello="Olá" name="Gustavo" image={require("../../../assets/img/fotodapessoa.png")} />
+            <Header hello="Olá" name="Gustavo" image={require("../../../assets/img/fotodapessoa.png")} />
 
         </Container>
     )
